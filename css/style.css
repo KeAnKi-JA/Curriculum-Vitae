@@ -6,16 +6,12 @@ html, body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
   background-color: #ffffff;
-  /*background-image: url("");*/
   background-size: cover;
   background-position: center;
 }
 
 /*  HEADER  */
 .cv-header {
-  /*position: sticky;
-  top: 0px;
-  z-index: 1000; ranplase pa kod bootstrap*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,12 +81,11 @@ main section {
   align-items: center;
   flex-wrap: wrap;
   gap: 32px;
-  padding: 0px 30px 20px 30px;
+  padding: 10px 30px 20px 30px;
   min-height: 150px;
   box-shadow: 0 -4px 6px -4px rgba(0, 0, 0, 0.4);
   position: relative;
   z-index: 10;
-  padding-top: 10px;
 }
 
 .footer-column {
@@ -145,7 +140,7 @@ main section {
   margin-top: 20px;
 }
 
-.left{
+.left {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -158,6 +153,7 @@ main section {
   border-top: 4px solid #A68A56;
   border-right: 4px solid #A68A56;
 }
+
 .right {
   display: flex;
   flex-direction: column;
@@ -201,17 +197,12 @@ main section {
     text-align: center;
     gap: 16px;
   }
-}
 
-@media (max-width: 500px) {
   .cv-header {
     flex-direction: column;
     text-align: center;
   }
-}
 
-/*Version Mobile*/
-@media (max-width: 768px) {
   .side {
     flex-direction: column;
   }
@@ -232,10 +223,11 @@ main section {
     border-top: none;
     border-bottom: 4px solid #2c3e50;
   }
-}
-@media (max-width: 500px) {
-  .btn {
-    flex-direction: column;
+
+  .d-flex.gap-3.w-50.justify-content-center {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 12px !important;
   }
 
   .right .d-flex.gap-3 {
@@ -243,24 +235,21 @@ main section {
     width: 100%;
     align-items: center;
   }
-}
-@media (max-width: 600px) {
+
+  .btn-custom {
+    font-size: 14px;
+    max-width: 100%;
+  }
+
   .btn-projets {
     font-size: 13px;
     max-width: 160px;
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 769px) {
   .d-flex.gap-3.w-50.justify-content-center {
-    flex-direction: column !important;
-    align-items: center !important;
-    gap: 12px !important; 
-  }
-}
-@media (max-width: 600px) {
-  .btn-custom {
-    font-size: 14px;
-    max-width: 100%;
+    flex-direction: row !important;
+    gap: 24px !important;
   }
 }

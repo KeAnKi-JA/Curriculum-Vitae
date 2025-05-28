@@ -165,14 +165,14 @@ main section {
 }
 
 .btn-custom {
-  max-width: 300px;
+  width: 600px;
   padding: 12px 20px;
   font-size: 16px;
   text-align: center;
   border-radius: 25px;
   font-weight: 500;
   word-break: break-word;
-  white-space: normal;
+  white-space: nowrap;
 }
 
 /* BOUTON CV */
@@ -228,6 +228,8 @@ main section {
     flex-direction: column !important;
     align-items: center !important;
     gap: 12px !important;
+    width: 100% !important;
+  max-width: 800px !important;
   }
 
   .right .d-flex.gap-3 {
@@ -238,21 +240,19 @@ main section {
 
   .btn-custom {
     font-size: 14px;
-    max-width: 100%;
+    width: 300px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
 
-  .btn-projets {
-    font-size: 13px;
-    max-width: 200px;
-  }
 }
 
 @media (min-width: 769px) {
   .d-flex.gap-3.w-50.justify-content-center {
     flex-direction: row !important;
     gap: 24px !important;
+    white-space: nowrap;
+    min-width: 80px;
   }
 }

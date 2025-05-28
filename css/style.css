@@ -171,7 +171,7 @@ main section {
 .btn {
   width: 300px;
   gap: 16px;
-  max-width: 300px;
+  max-width: 350px;
   width: 100%;
   gap: 16px;
 }
@@ -239,5 +239,11 @@ main section {
     flex-direction: column;
     width: 100%;
     align-items: center;
+  }
+}
+@media (max-width: 600px) {
+  .btn-projets {
+    font-size: 13px;
+    max-width: 160px;
   }
 }

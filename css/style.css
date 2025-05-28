@@ -239,11 +239,14 @@ main section {
   .btn-custom {
     font-size: 14px;
     max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .btn-projets {
     font-size: 13px;
-    max-width: 160px;
+    max-width: 200px;
   }
 }
 

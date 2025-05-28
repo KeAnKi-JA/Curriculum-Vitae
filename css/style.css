@@ -250,6 +250,14 @@ main section {
     max-width: 160px;
   }
 }
+
+@media (max-width: 768px) {
+  .d-flex.gap-3.w-50.justify-content-center {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 12px !important; 
+  }
+}
 @media (max-width: 600px) {
   .btn-custom {
     font-size: 14px;

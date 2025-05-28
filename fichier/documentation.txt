@@ -1,0 +1,37 @@
+J’ai opté pour Bootstrap pour plusieurs raisons :
+
+1) c'est un framework qui offre une grande bibliothèque de composants prêts à l’emploi (boutons, badges, etc.), 
+    ce qui m’a permis de me concentrer sur le contenu et la logique sans passer trop de temps sur le design de base.
+
+2) Grâce à son système, 
+    mes pages s’adaptent automatiquement aux écrans d’ordinateur, de tablette ou de smartphone.
+    (mon site est responsive)
+
+3)  Bootstrap me permet de structurer rapidement mes pages HTML/CSS tout en continuant à apprendre et à 
+    progresser en front-end.
+
+
+
+1- Page d’accueil (index.php)
+
+J’ai utilisé les "class":
+1) container et d-flex pour centrer les éléments horizontalement (boutons, texte).
+2) btn btn-primary pour styliser les boutons « CV » et « Mes projets ».
+3) text-center, fst-italic, et mt-4 pour gérer l’alignement, la typographie et les espacements.
+
+
+2- Page CV (moncv.php)
+
+ J’ai utilisé :
+1) La grille responsive Bootstrap via <main class="container my-5"> pour encadrer tout le contenu du CV.
+2) Badges (.badge, .bg-secondary) pour afficher les compétences de façon claire et visuelle.
+3) mb-4, my-5 pour espacer les sections de façon fluide.
+4) "Class" typographiques comme text-center, fst-italic, section-title (personnalisée en CSS).
+5) Un bouton btn-outline-dark pour le lien de téléchargement du CV.
+
+
+
+J’ai ajouté une feuille CSS personnelle (style.css) pour :
+    a) Modifier les couleurs des badges, des titres ou du fond.
+    b) Ajouter des marges ou styles spécifiques aux éléments comme l’en-tête ou le pied de page.
+    c) Adapter certains composants Bootstrap à mon identité visuelle.

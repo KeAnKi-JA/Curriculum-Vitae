@@ -1,0 +1,426 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --accent-color: #1abc9c;
+    --hover-color: #16a085;
+    --light-color: #f8f8f8;
+    --dark-text: #333;
+    --gray-text: #555;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: montserrat;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4 ;
+    color: var(--dark-text);
+}
+
+header {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 1rem;
+    text-align: center;
+    position:sticky;
+    /*border: groove 0.01px #2c3e50;*/
+}
+header .title{
+    text-align: center;
+    margin-left: 30px;
+    font-size: 32px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
+
+nav ul li {
+    margin: 0 50px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section a {
+    color: #2c3e50 !important ;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.forum-categories, .ressources-list, .valeurs-list, .equipe-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.category, .ressource-item, .valeur-item, .equipe-item, .forum-category {
+    background-color: white;
+    color: #333333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 9px var(--shadow-color);
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.category:hover, .ressource-item:hover, .valeur-item:hover, .equipe-item:hover, .forum-category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.resource-item a, .category a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+#forum .category #campusfrance {
+    border-left: 5px solid var(--primary-color);
+}
+
+#forum .category #parcoursup {
+    border-left: 5px solid #f39c12;
+}
+
+#forum .category #viestudent {
+    border-left: 5px solid #e74c3c;
+}
+
+footer {
+    background-color: #34495e;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px;
+    /*border: groove 0.01px #2c3e50*/
+}
+
+/* Contact Form */
+.contact-form button {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: var(--hover-color);
+}
+
+.contact-form button:active {
+    transform: translateY(2px);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%; /* Prend toute la largeur disponible */
+    max-width: 600px; /* Largeur maximale */
+    height: 45px; /* Ajuste la hauteur */
+    padding: 12px; 
+    font-size: 16px; /* Augmente la taille du texte */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Empêche que le padding ne modifie la largeur */
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex; /* Aligne label et champ sur la même ligne */
+    justify-content: center;
+    align-items: center; /* Alignement vertical */
+    gap: 10px; /* Espacement entre le label et le champ */
+}
+
+.form-group label {
+    display: inline-block;
+    width: 150px; /* Ajuste cette valeur en fonction du plus long label */
+    text-align: center; /* Aligne le texte à droite */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    max-width: 600px; /* Ajuste selon le design */
+}
+
+/* FAQ Section */
+.faq-item h3:hover {
+    color: var(--accent-color);
+}
+#faqa:hover{
+    color:#f39c12;
+}
+#faqc:hover{
+    color:#e74c3c;
+}
+
+#faq span h1 {
+    margin: 40px;
+    color: whitesmoke;
+    text-align: center;
+    background-color: #1abc9c;
+}
+
+.faq-item p{
+    margin-bottom:70px;
+}
+
+#faq{
+    text-align: justify;
+}
+
+
+/* Forum on Forum Page */
+#forum-page {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#forum-page .forum-category .btn {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: var(--accent-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#forum-page .forum-category .btn:hover {
+    background-color: var(--hover-color);
+}
+.style-active-link {
+    background-color: #1abc9c;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#apropos h2{
+    margin-bottom: 30px;
+}
+
+#apropos div{
+    margin-bottom: 50px;
+}
+
+ #apropos .mission p{
+    text-align: justify; /* Le texte principal est justifié pour un rendu professionnel */
+    margin: 0 auto;
+    max-width: 800px; /* Optionnel : limite la largeur du texte pour une meilleure lisibilité */
+    line-height: 1.6; /* Ajoute un espacement agréable entre les lignes */
+}
+
+#accueil h1 {
+    color:#34495e;
+    text-transform:capitalize;
+    text-decoration-line: var(--accent-color);
+    text-shadow: 0px 0px 1px;
+    font-family: montserrat;
+    margin-top: 30px;
+}
+
+
+#forum h1{
+    color:#34495e;
+    /*font-size: 25px;*/
+    font-family: montserrat;
+}
+
+#forum .p{
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #333333;
+}
+
+#forum h3{
+    color: #2c3e50;
+}
+
+.slider-1{
+    max-width:800px;
+    margin:100px auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    /*background-color: var(--hover-color) ;*/
+    background-color: #1abc9c;
+    border: 2px ridge #2980b9 ;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.slider-1 .slider{
+    display: flex;
+    animation: slider-1 24s infinite ease-in-out;
+    
+}
+
+.slider-1 p{
+    
+    flex-shrink:0;
+    padding: 72px 0 ;
+    width: 100%;
+    text-align:center;
+    color: #f4f4f4;
+    font-size:32px;
+    font-family: montserrat;
+}
+@keyframes slider-1{
+    0%,
+    20%{
+        transform:translatex(0);
+    }
+    25%,
+    45%{
+        transform: translatex(-100%);
+    }
+    50%,
+    70%{
+        transform: translatex(-200%);
+    }
+    75%,
+    95%{
+        transform: translatex(-300%);
+    }
+    100%{
+        transform: translatex(-400%);
+    }
+}
+
+header .title{
+    font-family: montserrat;
+}
+
+
+
+
+
+
+/*Campusfrance.php*/
+
+.campusfranceh .intro p, .viestudenth .intro, .parcoursuph #p2entete{
+    text-align: justify; /* Le texte principal est justifié pour un rendu professionnel */
+    margin: 0 auto;
+    color: #333333;
+    max-width: 700px; /* Optionnel : limite la largeur du texte pour une meilleure lisibilité */
+    line-height: 2; /* Ajoute un espacement agréable entre les lignes */
+    font-family: montserrat;
+}
+
+.parcoursuph #p2entete{
+    padding-bottom: 10px;
+}
+
+.campusfranceh .intro h1, .viestudenth .intro{
+    font-family: montserrat;
+    color: #34495e;
+    margin-bottom: 30px;
+}
+
+.campusfranceh .steps h1, .parcoursuph h1, .viestudenth h1{
+    font-family: montserrat;
+    color: #2c3e50;
+    text-decoration: overline;
+    line-height: 2;
+}
+
+.campusfranceh .steps .h h2, .parcoursuph .h h2, .viestudenth h2{
+    font-family: montserrat;
+    color: #34495e;
+}
+.campusfranceh .steps .h p{
+    font-family: montserrat;
+    color: #333333;
+    text-align: left;
+    line-height: 1.2;
+    font-size: 16px;
+}
+
+#campush4, #parcoursuph4, #viestudenth4{
+    text-align: center;
+}
+
+.h{
+    margin-top: 50px;
+    background-color:white;
+    border-style: outset;
+}
+
+ol {
+    font-family: montserrat;
+    text-align: left;
+    line-height: 2;
+    color: #333;
+    font-size: large;
+    font-weight:100;
+    border-style: outset;
+    max-width: 500px;
+    background-color: #ccc;
+}
+ol li a:hover{  
+    background-color:white;
+    border-style: outset;
+
+}
+
+.h ul li{
+    text-align: left;
+}
+
+/*parcoursup*/
+
+.parcoursuph h1, .parcoursuph h2, .viestudenth h1, .viestudenth h4, .viestudenth h2{
+    font-family: montserrat;
+    color: #34495e;
+    text-align: center;
+}
+
+.parcoursuph h1{
+    text-decoration: overline;
+    margin-bottom: 40px;
+}
+
+.parcoursuph h2{
+    margin-top: 30px;
+}
+
+.parcoursuph p, .campusfranceh p, .viestudenth p, .viestudenth .h h3{
+    color: #333333;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.parcoursuph #p1entete, .parcoursuph #p2entete{
+    text-align: justify;
+    line-height: 1.6; /* Ajoute un espacement agréable entre les lignes */
+}

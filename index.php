@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+<body>
+
+  <!--<header class="cv-header">-->
+    <!--<img src="https://via.placeholder.com/120" alt="Photo de profil" />-->
+    <!--<div class="cv-header-text">
+      <h1 class="text-center">Kerby Anne Kissy</h1>
+      <p class="text-center">Experte en numérique</p>
+      <div class="badges">
+        <div class="badge">Créative</div>
+        <div class="badge">Empathique</div>
+        <div class="badge">Autonome</div>
+        <div class="badge">Digitale</div>
+      </div>
+    </div>
+    </header>-->
+
+  <section class="side">
+    <div class="left">
+    <p class="text-center fst-italic">Bienvenue !</p>
+    </div>
+
+    <div class="right">
+      <h3 class="text-center">Hello, je suis Kerby Anne Kissy ! 😊</h3>
+      <h6 class="text-center fst-italic">Imaginer, concevoir, transformer.</h6>
+      <p class="text-center fst-italic">
+      Experte en conception de solutions numériques mêlant design, 
+      communication et logique fonctionnelle. 
+      J’interviens sur des projets à fort impact, en alliant créativité, 
+      rigueur et sens de l’expérience utilisateur.
+      </p>
+      <!--<div class="btn d-flex  justify-content-center">-->
+      <div class="d-flex justify-content-center mt-4">
+        <div class="d-flex gap-3 w-50 justify-content-center">
+        <!--<button type="button" class="btn btn-primary text-center"><a href="moncv.php">CV</a></button>-->
+          <a href="moncv.php" class="btn btn-primary text-white text-center text-decoration-none">
+            CV
+          </a>
+          <!--<button type="button" class="btn btn-primary text-center">Mes projets</button> SANS LIEN-->
+          <a href="Pensons social/index.php" target="blank" class="btn btn-primary text-white text-center text-decoration-none">
+            Mes projets
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+<!-- PIED DE PAGE -->
+<footer class="footer">
+  <div class="footer-column">
+    <a href="#" class="footer-link-title">Mentions légales</a>
+  </div>
+
+  <div class="footer-column">
+    <p class="footer-link-title">Réseaux sociaux</p>
+    <a href="#" class="footer-link">LinkedIn</a>
+    <a href="#" class="footer-link">GitHub</a>
+    <a href="#" class="footer-link">Behance</a>
+  </div>
+
+  <div class="footer-column">
+    <p class="footer-link-title">Contactez-moi</p>
+    <a href="#" class="footer-link">kissyjanvier@yahoo.com</a>
+    <a href="#" class="footer-link">kerbyannekissy@gmail.com</a>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CV</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+    <body>
+    <header class="cv-header position-sticky top-0">
+    <!--<img src="https://via.placeholder.com/120" alt="Photo de profil" />-->
+    <div class="cv-header-text">
+      <h1 class="text-center"> <a href="index.php" style="text-decoration : none ; color : #ecf0f1 ;">Kerby Anne Kissy</a></h1>
+      <!--<p class="text-center">Experte en numérique</p>-->
+      <div class="badges">
+        <div class="badge">Organisée</div>
+        <div class="badge">Rigoureuse</div>
+        <div class="badge">Stratégique</div>
+        <div class="badge">Proactive</div>
+      </div>
+    </div>
+  </header>
+
+
+    <main class="container my-5">
+        <section class="mb-4">
+            <h2 class="section-title">À propos</h2>
+            <p class="text-center fst-italic">Passionnée par les technologies et la data, je maîtrise SQL, PHP, Python, HTML/CSS 
+                ainsi que les outils Adobe Creative Suite, Figma, Canva et les CMS (WordPress, Shopify, Wix). 
+                Avec des expériences en gestion de projet, médiation numérique, relation client et en tant que 
+                co-fondatrice d’un club étudiant, j’ai acquis leadership, rigueur et esprit d’initiative. Je mets 
+                aujourd’hui ces compétences au service de l’optimisation et du pilotage des systèmes d’information 
+                pour les rendre performants et accessibles.
+            </p>
+        </section>
+
+        <section class="mb-4">
+            <h2 class="section-title">Outils</h2>
+            <ul class="list-inline">
+                <li class="list-inline-item badge bg-secondary" style="color:#ffffff;">SQL / HTML / CSS / PHP / Python</li>
+                <li class="list-inline-item badge bg-secondary" style="color:#ffffff;">Suite Adobe Creative / Figma / Canva</li>
+                <li class="list-inline-item badge bg-secondary" style="color:#ffffff;">Wordpress/ Shopify / Wix</li>
+            </ul>
+        </section>
+
+        <section class="mb-4">
+            <h2 class="section-title">Expériences professionnelles</h2>
+            
+            <div>
+                <h6>Assistante gestion de projet et communication – Maison d'Haiti (stage)</h6>
+                <p><em>Mai 2025 – Aout 2025</em></p>
+                <ul>
+                </ul>
+            </div>
+                <br><br>
+            <div>
+                <h6>Stage numérique – Sous-préfecture de sarcelles</h6>
+                <p><em>Juin 2023 – Aout 2023</em></p>
+                <ul>
+                </ul>
+            </div>
+                <br><br>
+            <div>
+                <h6>Collaboratrice en Expérience Client – Ibis Styles </h6>
+                <p><em>Juil. 2022 – Jusqu'à aujourd'hui</em></p>
+                <ul>
+                </ul>
+            </div>
+                <br><br>
+            <div>
+                <h6>Co-fondatrice et Présidente – Club Pensons Social </h6>
+                <p><em>Oct. 2021 – Aout 2025</em></p>
+                <ul>
+                </ul>
+            </div>
+        </section>
+
+        <section class="mb-4">
+            <h2 class="section-title">Formations</h2>
+            
+            <p><strong>Master Cultures & Métiers du Web</strong>, Université Gustave Eiffel – 2023-2025</p>
+            <p><strong>Master 1 Conduite du changement  et sociologie des ressources humaines</strong>, 
+            Université Gustave Eiffel – 2022-2023</p>
+            <p><strong>Licence de sociologie</strong>, Université Gustave Eiffel – 2019-2022</p>
+            <p><strong>Paces</strong>, Université Gustave Eiffel – 2018-2019</p>
+            <p><strong>Baccalauréat S</strong>, Université Gustave Eiffel – 2018</p>
+           
+        </section>
+
+        <section class="mb-4">
+            <h2 class="section-title">Langues</h2>
+            <p>Français (natif)</p>
+            <p>Anglais (B2)</p>
+            <p>Espagnol (A2)</p>
+        </section>
+
+        <section class="mb-4">
+            <h2 class="section-title">Centres d’intérêt</h2>
+            <p>Bénévolat</p>
+            <p>Danse</p>
+            <p>Poésie-Slam</p>
+            <p>Travaux manuels</p>
+        </section>
+
+        <div class="text-center my-4">
+            <a href="fichier/Kerby-CV.pdf" download class="btn btn-outline-dark">📄 Télécharger le CV</a>
+        </div>
+    </main>
+
+    <!-- PIED DE PAGE -->
+<footer class="footer">
+  <div class="footer-column">
+    <a href="#" class="footer-link-title">Mentions légales</a>
+  </div>
+
+  <div class="footer-column">
+    <p class="footer-link-title">Réseaux sociaux</p>
+    <a href="#" class="footer-link">LinkedIn</a>
+    <a href="#" class="footer-link">GitHub</a>
+    <a href="#" class="footer-link">Behance</a>
+  </div>
+
+  <div class="footer-column">
+    <p class="footer-link-title">Contactez-moi</p>
+    <a href="#" class="footer-link">kissyjanvier@yahoo.com</a>
+    <a href="#" class="footer-link">kerbyannekissy@gmail.com</a>
+  </div>
+</footer>
+</body>
+</html>

@@ -171,6 +171,9 @@ main section {
 .btn {
   width: 300px;
   gap: 16px;
+  max-width: 300px;
+  width: 100%;
+  gap: 16px;
 }
 
 /* BOUTON CV */
@@ -201,5 +204,40 @@ main section {
   .cv-header {
     flex-direction: column;
     text-align: center;
+  }
+}
+
+/*Version Mobile*/
+@media (max-width: 768px) {
+  .side {
+    flex-direction: column;
+  }
+
+  .left, .right {
+    width: 100%;
+    height: auto;
+    border-left: none;
+    border-right: none;
+  }
+
+  .left {
+    border-top: 4px solid #2c3e50;
+    border-bottom: 4px solid #A68A56;
+  }
+
+  .right {
+    border-top: none;
+    border-bottom: 4px solid #2c3e50;
+  }
+}
+@media (max-width: 500px) {
+  .btn {
+    flex-direction: column;
+  }
+
+  .right .d-flex.gap-3 {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
   }
 }

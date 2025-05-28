@@ -250,3 +250,9 @@ main section {
     max-width: 160px;
   }
 }
+@media (max-width: 600px) {
+  .btn-custom {
+    font-size: 14px;
+    max-width: 100%;
+  }
+}
